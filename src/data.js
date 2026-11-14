@@ -71,14 +71,14 @@ export const PROJECTS = [
   {
     id: '01',
     title: 'ALU Operation Demo',
-    image: '/images/pic1.jfif',
+    image: `${import.meta.env.BASE_URL}images/pic1.jfif`,
     alt: 'Project 1',
     desc: "An Arithmetic Logic Unit (ALU) operations demo is a practical simulation or hardware setup that showcases how a computer's CPU performs math and logic. It visually demonstrates how binary inputs are manipulated based on an opcode (operation code) to produce an output and change status flags.",
   },
   {
     id: '02',
     title: 'ADC or Analog Digital Converter',
-    image: '/images/adc.jfif',
+    image: `${import.meta.env.BASE_URL}images/adc.jfif`,
     alt: 'Project 2',
     desc: 'An Analog-to-Digital Converter (ADC) in sound means a device or circuit that changes continuous physical sound waves (analog signals) into a stream of numbers (digital binary code) that computers and digital audio gear can process.',
   },

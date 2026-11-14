@@ -7,7 +7,7 @@ export default function Profile({ active, onNavigate }) {
       <PageHeader title="MY PROFILE" tag="// USER_DATA_01" onNavigate={onNavigate} />
       <div className="profile-grid">
         <div className="photo-card">
-          <img src="/images/transparent-port.png" alt="My Profile Photo" className="profile-photo" />
+          <img src={`${import.meta.env.BASE_URL}images/transparent-port.png`} alt="My Profile Photo" className="profile-photo" />
           <div className="scan-line"></div>
         </div>
         <div className="details-card">
